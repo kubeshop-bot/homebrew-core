@@ -4,9 +4,9 @@ class Testkube < Formula
   url "https://github.com/kubeshop/testkube/archive/refs/tags/v1.0.11.tar.gz"
   sha256 "c1a6e14088657523f2527a655b0d995ec0a976c9230370be04506422180c8214"
   license "MIT"
-  revision 1
 
   bottle do
+    rebuild 1
     sha256 cellar: :any_skip_relocation, arm64_monterey: "9a506e76afb31fd1fdc6e6b514fa587dc1587102721aeddd5c99462a257ac2ef"
     sha256 cellar: :any_skip_relocation, arm64_big_sur:  "9a506e76afb31fd1fdc6e6b514fa587dc1587102721aeddd5c99462a257ac2ef"
     sha256 cellar: :any_skip_relocation, monterey:       "7b4de756544a7ddc8f21820ab774b1bcf294a480b4efe58f5d03ebfb3bd49c46"
